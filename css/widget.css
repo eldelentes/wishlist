@@ -1,0 +1,157 @@
+.widget body {
+	font-family: 'Montserrat', sans-serif;
+	position: relative;
+	font-size: 14px;
+	height: 100vh;
+}
+
+.widget-frame {
+	width: 300px;
+	height: 100%;
+	position: absolute;
+	right: 0;
+
+	background: #fff;
+	box-shadow: -5px 0px 5px rgba(0,0,0,0.05);
+	transform: translateX(100%);
+	transition: all 0.4s ease;
+}
+
+.widget-frame.show {
+	transform: translateX(0%);
+}
+
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.vertical-align {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.frame {
+	position: fixed;
+	width: 300px;
+	height: 100%;
+	border: 1px dashed #CFCFCF;
+}
+
+.main-header {
+	padding: 20px 0px;
+	display: inline-block;
+	width: 100%;
+	border-bottom: 1px solid #CFCFCF;
+}
+
+.logo {
+	width: 100px;
+	margin: 0 auto;
+	display: block;
+}
+
+.user {
+	text-align: center;
+	padding: 20px 0px;
+	text-transform: uppercase;
+	border-bottom: 1px solid #CFCFCF;
+}
+
+.user h3 {
+	font-size: 1em;
+}
+
+.app-container {
+	height: 80%;
+}
+
+.step-drag {
+	text-align: center;
+}
+
+.step-drag h3 {
+	font-size: 1em;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.step-drag span {
+	color: #A1A1A1;
+}
+
+.image-holder {
+	overflow: hidden;
+    height: 150px;
+    margin: 10px 0px;
+    border-radius: 4px;
+}
+
+.image-holder img {
+	width: 100%;
+}
+
+
+.step-add label {
+	color: #000;
+	text-transform: uppercase;
+	display: block;
+	font-size: 0.8em;
+}
+
+.step-add input {
+	border-top: 0px;
+	border-right: 0px;
+	border-left: 0px;
+	border-bottom: 2px solid transparent;
+	display: block;
+	width: 100%;
+	font-size: 2.6em;
+	outline: none;
+	font-weight: 100;
+	color: #FF7F7F;
+	padding: 10px 0px;
+	margin: 5px 0px;
+	transition: all 0.4s ease;
+}
+
+.step-add input:focus {
+	border-bottom: 2px solid #FF7F7F;
+}
+
+.step-add input[type="submit"] {
+	background: #F85252;
+	color: #fff;
+	border-radius: 2px;
+	font-size: 1em;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.step-success {
+	text-align: center;
+}
+
+.step-success h3 {
+	margin: 20px 0px;
+	font-size: 1em;
+}
+
+.step-success a {
+	background: #F85252;
+	color: #fff;
+	text-decoration: none;
+	padding: 20px 25px;
+	display: inline-block;
+	border-radius: 4px;
+	text-transform: uppercase;
+}
