@@ -1,11 +1,11 @@
-.widget body {
+.wh-widget body {
 	font-family: 'Montserrat', sans-serif;
 	position: relative;
 	font-size: 14px;
 	height: 100vh;
 }
 
-.widget-frame {
+.wh-widget .widget-frame {
 	width: 300px;
 	height: 100%;
 	position: absolute;
@@ -14,101 +14,98 @@
 	background: #fff;
 	box-shadow: -5px 0px 5px rgba(0,0,0,0.05);
 	transform: translateX(100%);
-	transition: all 0.4s ease;
 }
 
-.widget-frame.show {
+.wh-widget .widget-frame.show {
 	transform: translateX(0%);
 }
 
-
-
-* {
+.wh-widget * {
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
 }
 
-.container {
+.wh-widget .widget-frame .container {
 	width: 90%;
 	margin: 0 auto;
 }
 
-.vertical-align {
+.wh-widget .vertical-align {
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
 }
 
-.frame {
+.wh-widget .frame {
 	position: fixed;
 	width: 300px;
 	height: 100%;
 	border: 1px dashed #CFCFCF;
 }
 
-.main-header {
+.wh-widget .main-header {
 	padding: 20px 0px;
 	display: inline-block;
 	width: 100%;
 	border-bottom: 1px solid #CFCFCF;
 }
 
-.logo {
+.wh-widget .logo {
 	width: 100px;
 	margin: 0 auto;
 	display: block;
 }
 
-.user {
+.wh-widget .user {
 	text-align: center;
 	padding: 20px 0px;
 	text-transform: uppercase;
 	border-bottom: 1px solid #CFCFCF;
 }
 
-.user h3 {
+.wh-widget .user h3 {
 	font-size: 1em;
 }
 
-.app-container {
+.wh-widget .app-container {
 	height: 80%;
 }
 
-.step-drag {
+.wh-widget .step-drag {
 	text-align: center;
 }
 
-.step-drag h3 {
+.wh-widget .step-drag h3 {
 	font-size: 1em;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
 
-.step-drag span {
+.wh-widget .step-drag span {
 	color: #A1A1A1;
 }
 
-.image-holder {
+.wh-widget .image-holder {
 	overflow: hidden;
     height: 150px;
     margin: 10px 0px;
     border-radius: 4px;
 }
 
-.image-holder img {
+.wh-widget .image-holder img {
 	width: 100%;
 }
 
 
-.step-add label {
+.wh-widget .step-add label {
 	color: #000;
 	text-transform: uppercase;
 	display: block;
 	font-size: 0.8em;
 }
 
-.step-add input {
+.wh-widget .step-add input {
 	border-top: 0px;
 	border-right: 0px;
 	border-left: 0px;
@@ -124,11 +121,11 @@
 	transition: all 0.4s ease;
 }
 
-.step-add input:focus {
+.wh-widget .step-add input:focus {
 	border-bottom: 2px solid #FF7F7F;
 }
 
-.step-add input[type="submit"] {
+.wh-widget .step-add input[type="submit"] {
 	background: #F85252;
 	color: #fff;
 	border-radius: 2px;
@@ -137,16 +134,16 @@
 	font-weight: 600;
 }
 
-.step-success {
+.wh-widget .step-success {
 	text-align: center;
 }
 
-.step-success h3 {
+.wh-widget .step-success h3 {
 	margin: 20px 0px;
 	font-size: 1em;
 }
 
-.step-success a {
+.wh-widget .step-success a {
 	background: #F85252;
 	color: #fff;
 	text-decoration: none;
